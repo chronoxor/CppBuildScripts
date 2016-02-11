@@ -1,4 +1,4 @@
 cd ..
 mkdir -p build
 cd build
-cmake -G "Unix Makefiles" ..
+cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo -G "Unix Makefiles" ..
