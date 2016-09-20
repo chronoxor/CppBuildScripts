@@ -1,2 +1,2 @@
-rm -r ../build
-rm -r ../documents/html
+rm -rf ../build
+rm -rf ../documents/html
