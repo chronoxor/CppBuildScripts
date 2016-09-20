@@ -1,3 +1,2 @@
-cd ..
-rm -r build
-cd scripts
+rm -r ../build
+rm -r ../documents/html

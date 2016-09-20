@@ -1,3 +1,5 @@
 cd ..
 rmdir /S /Q build
-cd scripts
+cd documents
+rmdir /S /Q html
+cd ../scripts
