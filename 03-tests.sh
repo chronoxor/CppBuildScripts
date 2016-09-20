@@ -1,4 +1,5 @@
 cd ..
 cd build
-ctest
+set -e
+ctest -V
 cd ../scripts
