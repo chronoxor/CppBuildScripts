@@ -7,6 +7,5 @@ cd ../documents/html
 git add -A .
 git commit -am "Update generated documentation"
 set remote="https://%GITHUB_TOKEN%@%remote:https://=%"
-echo %remote%
 git push %remote%
 cd ../../scripts
