@@ -1,5 +1,5 @@
 #!/bin/bash
 cd ../..
-cd build
+cd temp
 make -j8 install
 cd ../scripts/Cygwin

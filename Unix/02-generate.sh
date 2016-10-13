@@ -1,6 +1,6 @@
 #!/bin/bash
 cd ../..
-mkdir -p build
-cd build
+mkdir -p temp
+cd temp
 cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo -G "Unix Makefiles" ..
 cd ../scripts/Unix

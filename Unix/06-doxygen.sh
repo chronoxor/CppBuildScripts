@@ -2,7 +2,7 @@
 cd ../../documents
 remote=`git config --get remote.origin.url`
 git clone --depth=5 -b gh-pages ${remote} html
-cd ../build
+cd ../temp
 make -j8 doxygen
 cd ../documents/html
 git add -A .

@@ -1,6 +1,6 @@
 #!/bin/bash
 cd ../..
-cd build
+cd temp
 set -e
 ctest -V
 cd ../scripts/Cygwin

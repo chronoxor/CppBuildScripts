@@ -1,7 +1,7 @@
 cd ../../documents
 for /F "tokens=* USEBACKQ" %%F in (`git config --get remote.origin.url`) do (set remote=%%F)
 git clone --depth=5 -b gh-pages %remote% html
-cd ../build
+cd ../temp
 make -j8 doxygen
 cd ../documents/html
 git add -A .

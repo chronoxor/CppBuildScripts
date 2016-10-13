@@ -1,5 +1,5 @@
 cd ../..
-rmdir /S /Q build
+rmdir /S /Q temp
 cd documents
 rmdir /S /Q html
 cd ../scripts/VisualStudio

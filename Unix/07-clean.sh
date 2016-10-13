@@ -1,3 +1,3 @@
 #!/bin/bash
-rm -rf ../../build
+rm -rf ../../temp
 rm -rf ../../documents/html
