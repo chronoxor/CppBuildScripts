@@ -1,7 +1,7 @@
 cd MinGW
-./01-submodules.bat
-./02-generate.bat
-./03-build.bat
-./04-tests.bat
-./05-install.bat
-./06-doxygen.bat
+call 01-submodules.bat
+call 02-generate.bat
+call 03-build.bat
+call 04-tests.bat
+call 05-install.bat
+call 06-doxygen.bat
