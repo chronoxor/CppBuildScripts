@@ -1,5 +1,5 @@
 #!/bin/bash
-cd ..
+cd ../..
 cd build
 make -j8 all
-cd ../scripts
+cd ../scripts/Cygwin

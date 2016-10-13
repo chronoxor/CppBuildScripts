@@ -1,4 +1,4 @@
-cd ..
+cd ../..
 cd build
 mingw32-make -j8 all
-cd ../scripts
+cd ../scripts/MinGW
