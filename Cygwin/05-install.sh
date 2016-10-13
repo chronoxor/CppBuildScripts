@@ -2,4 +2,4 @@
 cd ../..
 cd temp
 make -j8 install
-cd ../scripts/Cygwin
+cd ../build/Cygwin

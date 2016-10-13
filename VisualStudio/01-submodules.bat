@@ -1,3 +1,3 @@
 cd ../..
 git submodule update --init --recursive --remote
-cd scripts/VisualStudio
+cd build/VisualStudio

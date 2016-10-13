@@ -7,4 +7,4 @@ cd ../documents/html
 git add -A .
 git commit -am "Update generated documentation"
 git push %remote%
-cd ../../scripts/MinGW
+cd ../../build/MinGW

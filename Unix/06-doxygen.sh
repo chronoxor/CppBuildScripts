@@ -9,4 +9,4 @@ git add -A .
 git commit -am "Update generated documentation"
 remote="https://${GITHUB_TOKEN}@${remote#https://}"
 git push ${remote}
-cd ../../scripts/Unix
+cd ../../build/Unix

@@ -8,4 +8,4 @@ git add -A .
 git commit -am "Update generated documentation"
 set remote="https://%GITHUB_TOKEN%@%remote:https://=%"
 git push %remote%
-cd ../../scripts/VisualStudio
+cd ../../build/VisualStudio

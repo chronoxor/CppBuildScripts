@@ -3,4 +3,4 @@ cd ../..
 cd temp
 set -e
 ctest -V
-cd ../scripts/Unix
+cd ../build/Unix
