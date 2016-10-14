@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 cd ../../documents
 remote=`git config --get remote.origin.url`
 git clone --depth=5 -b gh-pages ${remote} html

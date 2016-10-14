@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 cd Cygwin
 ./01-generate.sh
 ./02-build.sh
