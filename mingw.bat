@@ -7,5 +7,5 @@ call 03-tests.bat
 if %errorlevel% neq 0 exit /b %errorlevel%
 call 04-install.bat
 if %errorlevel% neq 0 exit /b %errorlevel%
-call 05-doxygen.bat
-if %errorlevel% neq 0 exit /b %errorlevel%
+rem call 05-doxygen.bat
+rem if %errorlevel% neq 0 exit /b %errorlevel%
