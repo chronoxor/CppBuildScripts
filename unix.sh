@@ -5,4 +5,4 @@ cd Unix
 ./02-build.sh
 ./03-tests.sh
 ./04-install.sh
-[ -z "$doxygen" ] && ./05-doxygen.sh
+[ "$doxygen" ] && ./05-doxygen.sh
