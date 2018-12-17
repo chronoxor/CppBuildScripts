@@ -1,11 +1,10 @@
 #!/bin/bash
 set -e
 cd Cygwin
-./01-conan.sh
-./02-generate.sh
-./03-build.sh
-./04-tests.sh
-./05-install.sh
+./01-generate.sh
+./02-build.sh
+./03-tests.sh
+./04-install.sh
 if [[ "$doxygen" ]]; then 
-    ./06-doxygen.sh
+    ./05-doxygen.sh
 fi

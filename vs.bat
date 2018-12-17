@@ -1,13 +1,11 @@
 cd VisualStudio
-call 01-conan.bat
+call 01-generate.bat
 if %errorlevel% neq 0 exit /b %errorlevel%
-call 02-generate.bat
+call 02-build.bat
 if %errorlevel% neq 0 exit /b %errorlevel%
-call 03-build.bat
+call 03-tests.bat
 if %errorlevel% neq 0 exit /b %errorlevel%
-call 04-tests.bat
+call 04-install.bat
 if %errorlevel% neq 0 exit /b %errorlevel%
-call 05-install.bat
-if %errorlevel% neq 0 exit /b %errorlevel%
-IF DEFINED doxygen call 06-doxygen.bat
+IF DEFINED doxygen call 05-doxygen.bat
 if %errorlevel% neq 0 exit /b %errorlevel%
