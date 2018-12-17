@@ -5,6 +5,6 @@ cd Cygwin
 ./02-build.sh
 ./03-tests.sh
 ./04-install.sh
-if [[ "$doxygen" ]]; then 
+if [[ "$doxygen" ]]; then
     ./05-doxygen.sh
 fi
