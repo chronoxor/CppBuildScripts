@@ -1,3 +1,4 @@
+@echo off
 cd MinGW
 call 01-generate.bat
 if %errorlevel% neq 0 exit /b %errorlevel%

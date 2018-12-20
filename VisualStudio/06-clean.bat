@@ -1,3 +1,4 @@
+@echo off
 cd ../..
 rmdir /S /Q temp
 cd documents

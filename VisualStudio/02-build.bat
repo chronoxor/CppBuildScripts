@@ -1,3 +1,4 @@
+@echo off
 cd ../..
 cd temp
 MSBuild ALL_BUILD.vcxproj /p:Configuration=RelWithDebInfo
