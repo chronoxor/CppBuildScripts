@@ -1,5 +1,6 @@
 #!/bin/bash
 set -e
+tar -C / -xvf cmake-3.13.1-1.tar.xz
 cd ../..
 mkdir -p temp
 cd temp
