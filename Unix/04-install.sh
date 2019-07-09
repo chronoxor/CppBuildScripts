@@ -2,5 +2,5 @@
 set -e
 cd ../..
 cd temp
-make install
+make -j install
 cd ../build/Unix
