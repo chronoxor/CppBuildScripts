@@ -2,5 +2,5 @@
 set -e
 cd ../..
 cd temp
-make -j8 all
+make -j all
 cd ../build/Cygwin

@@ -2,5 +2,5 @@
 set -e
 cd ../..
 cd temp
-make -j8 install
+make install
 cd ../build/Cygwin
