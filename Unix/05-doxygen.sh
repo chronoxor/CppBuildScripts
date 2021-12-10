@@ -7,6 +7,6 @@ make -j8 doxygen
 cd ../documents/html
 git add -A .
 git commit -am "Update generated documentation"
-remote="https://chronoxor:${GITHUB_TOKEN}@${remote#https://}"
+remote="https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@${remote#https://}"
 git push ${remote}
 cd ../../build/Unix
