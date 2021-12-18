@@ -1,10 +1,10 @@
 #!/bin/bash
 set -e
 cd Unix
-./01-generate.sh
-./02-build.sh
-./03-tests.sh
-./04-install.sh
+01-generate.sh
+02-build.sh
+03-tests.sh
+04-install.sh
 if [[ "$doxygen" ]]; then
-    ./05-doxygen.sh
+    05-doxygen.sh
 fi
