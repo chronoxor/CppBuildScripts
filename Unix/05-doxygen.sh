@@ -8,7 +8,7 @@ remote="https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@${remote#https://}"
 cd ../../documents
 git clone --depth=5 -b gh-pages ${remote} html
 cd ../temp
-make -j8 doxygen
+make -j4 doxygen
 cd ../documents/html
 git add -A .
 git commit -am "Update generated documentation"
