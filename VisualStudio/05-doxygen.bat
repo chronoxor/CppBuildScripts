@@ -8,7 +8,7 @@ rem Generate documentation
 cd ../../documents
 git clone --depth=5 -b gh-pages %remote% html
 cd ../temp
-MSBuild doxygen.vcxproj -maxcpucount:8 -property:Configuration=RelWithDebInfo
+MSBuild doxygen.vcxproj -maxcpucount:4 -property:Configuration=RelWithDebInfo
 if %errorlevel% neq 0 exit /b %errorlevel%
 cd ../documents/html
 git add -A .
